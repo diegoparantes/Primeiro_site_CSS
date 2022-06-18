@@ -29,24 +29,34 @@ body {
 
 } 
 
-.main-asido h2 {
+.main-aside h2 {
     text-align: center;
 }
-.main-asido h2{
-    color: rgb(9, 21, 9);
+.main-aside h2:hover{
+    color:green;
+    cursor: pointer;
 
 }
-.main-asido ul {
+.main-aside ul {
     list-style: none;
     text-align: center;
     padding:0%;
 }
 
-.main-asido ul a {
-    text-decoration: none;
-    color: rgb(247, 0, 255);
+.main-aside ul a:hover {    
+    color: red
 }
-.main-asido ul  {
-    color: rgb(14, 41, 15);
+.main-aside ul a:visited {
+    color: green;
+}
+/*formularioa*/
+.main-form{
+    padding-left: 20px;
+}
+.main-form .form-group{
+    padding-bottom: 10px;
+}
+.main-form .form-group label{
+    display: block;
 }
 
