@@ -1,0 +1,52 @@
+body {
+    font-family:"Helvetica", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    background-color:#13110f;
+    color:rgb(229, 216, 216);
+    width: 960px;
+    box-sizing: border-box;
+
+    margin-top:50px;
+    margin-left: 50px;
+    margin-right:  50px;
+    margin-bottom: 50px;
+
+   
+    padding-top: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding: bottom 60px;
+    padding: 60px;
+
+    border-top: 15px solid red; 
+    border-left: 15px solid red; 
+    border-right:  15px solid red; 
+    border-bottom:15px solid rgb(0, 255, 4); 
+    border: 15px solid rgbr(0,0,255);
+
+} 
+
+.main-asido h2 {
+    text-align: center;
+}
+.main-asido h2{
+    color: rgb(9, 21, 9);
+
+}
+.main-asido ul {
+    list-style: none;
+    text-align: center;
+    padding:0%;
+}
+
+.main-asido ul a {
+    text-decoration: none;
+    color: rgb(247, 0, 255);
+}
+.main-asido ul  {
+    color: rgb(14, 41, 15);
+}
+
