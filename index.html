@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Aprendendo CSS</title>
 
+    <title>Aprendendo CSS</title>
 </head>
 
 <body>
+<nav id="main-navbar">
+</nav>
+<h1>Barra de navegação  </h1>
   <div class= "container">
     <h1>Olá Mundo</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -17,39 +20,46 @@
   </div>
 
   <aside class="main-aside"> 
-
    <h2> Redes Sociais</h2>
     <ul>
         <li><a href="https://Gmail.com">Gmail</a></li>
         <li><a href="https://ge.globo.com/futebol/times/flamengo/">Flamengo</a></li>
     </ul>
-
   </aside>
-
+<div class="box">
   <form action="form.php" method="Post" class="main-form">
-    <div>
+    <div class="form-group">
       <label>Primeiro Nome:</label>
       <input type="text" placeholder="Entre seu primeiro nome">
     </div>
     
-    <div>
+    <div class="form-group">
       <label>Segundo Nome:</label>
       <input type="text">
     </div>
     
-    <div>
+    <div class="form-group">
       <label>Email:</label>
       <input type="email"/>
     </div>
 
-    <div>
+    <div class="form-group">
       <label>Mensagem</label>
       <textarea name="Mensagem"></textarea>
     </div>
       
-    <input type="submit"/> 
-    
-  ></form>
+    <input  class="button"type="submit"/> 
+     ></form>
+</div>
+
+     <div class="box relative">
+      <div class="absolute">
+        <h1>Olá Mundo! :)</h1>
+
+      </div>
+    </div>
+
+    <button class=""></button>
 </body>
 </html>
 

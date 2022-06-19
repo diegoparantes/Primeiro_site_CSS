@@ -1,12 +1,16 @@
 body {
     font-family:"Helvetica", sans-serif;
     font-size: 16px;
+    margin: 10%;
 }
-
+.box{
+    width: 80%;
+    margin: nome;
+}
 .container {
     background-color:#13110f;
     color:rgb(229, 216, 216);
-    width: 960px;
+    width: 1000px;
     box-sizing: border-box;
 
     margin-top:50px;
@@ -21,11 +25,11 @@ body {
     padding: bottom 60px;
     padding: 60px;
 
-    border-top: 15px solid red; 
-    border-left: 15px solid red; 
-    border-right:  15px solid red; 
-    border-bottom:15px solid rgb(0, 255, 4); 
-    border: 15px solid rgbr(0,0,255);
+    border-top: 15px solid #348888; 
+    border-left: 15px solid#348888 ; 
+    border-right:  15px solid #348888; 
+    border-bottom:15px solid #348888 ; 
+    border: 15px solid #348888;
 
 } 
 
@@ -33,7 +37,7 @@ body {
     text-align: center;
 }
 .main-aside h2:hover{
-    color:green;
+    color: blue;
     cursor: pointer;
 
 }
@@ -47,7 +51,7 @@ body {
     color: red
 }
 .main-aside ul a:visited {
-    color: green;
+    color:#F24405;
 }
 /*formularioa*/
 .main-form{
@@ -55,8 +59,42 @@ body {
 }
 .main-form .form-group{
     padding-bottom: 10px;
+    
 }
+
+.main-form .form-group input{
+    padding: 10px;
+    width: 100%;
+    }
+
 .main-form .form-group label{
     display: block;
+}
+
+.relative{
+    position: relative;
+border: 3px solid #333;
+height: 500px;
+}
+
+.button{
+padding: 15px;
+background-color: #005C53;
+color:#D6D58E;
+
+}
+.relative .absolute {
+    position: absolute;
+    bottom:0;
+}
+.relative.absolute h1 {
+    margin: 0;
+}
+#main-navbar{
+    background: #333;
+    color:#eee
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
